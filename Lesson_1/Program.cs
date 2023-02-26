@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, Красавица моя!");
+﻿//0. Вывести квадрат числа
+
+System.Console.Write ("Введите число: ");
+int number = Convert.ToInt32(Console.ReadLine());
+System.Console.WriteLine($"Квадрат {number} = {number * number}");
